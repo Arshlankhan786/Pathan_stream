@@ -75,7 +75,7 @@ async def start(b, m):
             return
     await DxStreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/93382b91fe810ba981de8.jpg",
+        photo ="https://telegra.ph/file/0c987464eaee927e2d3df.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
@@ -102,7 +102,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await DxStreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/93382b91fe810ba981de8.jpg",
+                photo="https://telegra.ph/file/0c987464eaee927e2d3df.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -117,7 +117,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/DXMODS_Support).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/Flipkartlootzs).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -127,8 +127,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com/DX-MODS")],
-                [InlineKeyboardButton("💥 Source Code", url="https://github.com/DX-MODS/DxStreamerBot")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/Flipkartlootzs")],
+                [InlineKeyboardButton("💥 JOIN NOW", url="https://t.me/pathan_botz")]
             ]
         )
     )
