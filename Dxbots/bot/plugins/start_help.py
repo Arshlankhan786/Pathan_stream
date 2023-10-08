@@ -54,7 +54,7 @@ async def start(b, m):
         except UserNotParticipant:
              await DxStreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/93382b91fe810ba981de8.jpg",
+                photo="https://telegra.ph/file/72b80c41518846d8bc7e7.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
