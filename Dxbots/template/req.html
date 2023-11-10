@@ -3,167 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watch Hi.mkv</title>
+    <title>%s</title>
+    <link rel="stylesheet" type='text/css' href="https://dx-mods.github.io/resources/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css"/>
 
-<style>
-      marquee{
-      font-size: 22px;
-      color: Black;
-      font-family: serif;
-      }
-    </style>
-<style>
-    body {
-        font-family: sans-serif;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-    }
-	#player-container {
-        margin: 1px;
-    }
-	.container {
-        overflow: hidden;
-        *zoom: 1;
-        margin: 0 1px;
-	margin-bottom: 20px;
-    }
-	.set-container {
-	padding: 15px;
-    }
-	.containerbox {
-        overflow: hidden;
-        *zoom: 1;
-	margin-bottom: 70px;
-    }
-	.mainupdates {
-	overflow: hidden;
-        *zoom: 1;
-	margin-bottom: 110px;
-    }
-	#button-container1 {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    #button-container1 button {
-        flex: 1 0 auto;
-        height: 40px;
-        padding: 0 20px;
-        margin: 5px;
-        font-size: 16px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
-    }
-
-    #button-container1 button:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    #button-container1 button#vlc-btn,
-    #button-container1 button#pi-btn,
-    #button-container1 button#sp-btn,
-    #button-container1 button#mx-btn {
-        background-color: Lavender; 
-        color: #ffffff; 
-    }
-    #button-container2 button#dl-btn,
-    #button-container2 button#tgfile-btn,
-    #button-container2 button#tg-btn {
-        background-color: #2D76FF; 
-        color: #ffffff; 
-    }
-
-    #button-container2 {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    #button-container2 button {
-        height: 40px;
-        padding: 0 20px;
-        margin: 5px;
-        font-size: 16px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
-    }
-
-    #button-container2 button:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-    
-
-</style>
-
 </head>
 
 <body>
-    
-<div class="set-container">
-    <div class="container">
     <header>
-        <marquee bgcolor="#808080"
-<div class="toogle"></div>
+        <div class="toogle"></div>
         <div id="file-name">
-            Hi.mkv
+           <marquee direction = "left"> %s</marquee>
         </div>
-</marquee>
     </header>
-        <video src="%s" class="player"></video>
+
+    <div class="container">
+        <tag src="%s" class="player"></tag>
     </div>
 
+    <footer>
+        <h4><a href="tg://resolve?domain=filetolinkbot" style="color:blue" >Make your own Link &emsp; &emsp;</a></h4>
+        <span id="fork-text">Fork me on</span>
+        <span>
+            <a href="" id='github-logo'>
+                <svg id='octo' style="width: 1.2rem; padding-left: 5px; fill: var(--footer-icon-color)" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
 
-	<div style="margin-bottom: 5px; margin-top: 10px">𝐒𝐭𝐫𝐞𝐚𝐦 𝐎𝐩𝐭𝐢𝐨𝐧𝐬 :</div>
-        <div id="button-container1">
-            <button id="vlc-btn" onclick="playOnline()">
-                <img src="https://i.ibb.co/GtnGhBV/videolan-vlc-logo-icon-170258.png" alt="vlc_logo" width="110px" height="40px"/>
-            </button>
-            <button id="mx-btn" onclick="playOnlineMx()"><img src="https://i.ibb.co/djV3Fn8/mxlogo.png" alt="mx_logo" width="120px">
-            </button>
-        </div>
+        </span>
 
+    </footer>
 
-        <div style="margin-bottom: 5px; margin-top: 5px">
-        <div id="button-container1">
-            <button id="sp-btn" onclick="playOnlinesp()">
-                <img src="https://i.ibb.co/vZxWgz5/ZKTgV9HV.png" alt="splayer_logo" width="110px">
-            </button>
-            <button id="pi-btn" onclick="playOnlinepi()"><img src="https://i.ibb.co/JsDNHgz/c0C4vnAa.png" alt="playit_logo" width="120px">
-            </button>
-
-	</div>
-	<div style="margin-bottom: 5px; margin-top: 10px"></div>
-        <div id="button-container2">
-            <button id="dl-btn" onclick="download()">
-                <i class="fas fa-download"></i> Download Now
-            </button>
-        </div>
-	
-</div>
-	<div class="mainupdates">
-<center> 
-<div style="margin-bottom: 5px; margin-top: 10px">𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐮𝐩𝐝𝐚𝐭𝐞𝐬 ❤️ :</div>
-<h3><b>   
-    <a href="https://telegram.dog/only_botz"> <img src="https://img.shields.io/badge/Updates- Channel -blueviolet?style=for-the-badge" alt="Channel"> </a> 
-</b></h3></center>
-	</div>
-    </div>
-</div>
 
     <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-	<script>
+        <script>
         const controls = [
               'play-large',
               'rewind',
@@ -181,113 +57,6 @@
               'download',
               'fullscreen'
             ];
-	</script>
-	
-	<div>
-		<script>
-    const currentUrl = window.location.href;
-    const finalUrl = currentUrl.replace("/watch/", "/");
-
-    function playOnline() {
-        const finalLinkUrl = finalUrl;
-        const vlcUrl = `vlc://${finalLinkUrl}`;
-        window.location.href = vlcUrl;
-    }
-
-    function playOnlineMx() {
-        const finalLinkUrl = finalUrl;
-        const mxUrl = `intent:${finalLinkUrl}#Intent;package=com.mxtech.videoplayer.ad;end`;
-        window.location.href = mxUrl;
-    }
-    
-    function playOnlinesp() {
-        const finalLinkUrl = finalUrl;
-        const spUrl = `intent:${finalLinkUrl}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
-        window.location.href = spUrl;
-    }
-    
-    function playOnlinepi() {
-        const finalLinkUrl = finalUrl;
-        const piUrl = `playit://playerv2/video?url=${finalLinkUrl}&amp;title={{file_name}}`;
-        window.location.href = piUrl;
-    }
-			
-    function download() {
-        const finalLinkUrl = finalUrl;
-        window.location.href = finalLinkUrl;
-    }
-
-    function openTgBot() {
-        const createLinkUrl = "https://telegram.dog/";
-        window.open(createLinkUrl, "_blank");
-    }
-
-    function openModalTG() {
-        const modal = document.getElementById("myModal");
-        modal.style.display = "block";
-
-        const words = [
-            "Received File request...✅",
-            "Processing your request...⌛",
-            "Generating your link...🔗",
-            "Sending link to you...🚀",
-            "Redirecting To Telegram...😉"
-        ];
-
-        let index = 0;
-        const timerElement = document.getElementById("timer");
-        timerElement.innerText = words[index];
-
-        const timer = setInterval(() => {
-            index++;
-            if (index < words.length) {
-                timerElement.innerText = words[index];
-            } else {
-                clearInterval(timer);
-                TGre();
-                modal.style.display = "none";
-            }
-        }, 1000);
-    }
-
-    function TGre() {
-        const tglink = "";
-        window.location.href = tglink;
-    }
-
-    function openModal() {
-        const modal = document.getElementById("myModal");
-        modal.style.display = "block";
-
-        const words = [
-            "Received Download request...✅",
-            "Processing your request...⌛",
-            "Generating your link...🔗",
-            "Sending link to you...🚀",
-            "Download has started...😉"
-        ];
-
-        let index = 0;
-        const timerElement = document.getElementById("timer");
-        timerElement.innerText = words[index];
-
-        const timer = setInterval(() => {
-            index++;
-            if (index < words.length) {
-                timerElement.innerText = words[index];
-            } else {
-                clearInterval(timer);
-                download();
-                modal.style.display = "none";
-            }
-        }, 1000);
-    }
-
-    function download() {
-        const finalLinkUrl = finalUrl;
-        window.location.href = finalLinkUrl;
-    }
-	
         document.addEventListener('DOMContentLoaded', () => {
             const player = Plyr.setup('.player', { controls });
         });
@@ -300,6 +69,5 @@
             footer.classList.toggle('dark')
         }
     </script>
-     </div>
 </body>
 </html>
